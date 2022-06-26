@@ -395,7 +395,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-ZAC"
+      "id": "ZAC",
+      "casos_totales": 59,
+      "x": -103.632,
+      "y": 22.988
     },
     {
       "type": "Feature",
@@ -571,7 +574,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-YUC"
+      "id": "YUC",
+      "casos_totales": 1734,
+      "x": -89.3386,
+      "y": 20.7864
     },
     {
       "type": "Feature",
@@ -1081,7 +1087,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-VER"
+      "id": "VER",
+      "casos_totales": 12412,
+      "x": -95.7164,
+      "y": 17.8696
     },
     {
       "type": "Feature",
@@ -1161,7 +1170,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-TLA"
+      "id": "TLA",
+      "casos_totales": 17,
+      "x": -98.2849,
+      "y": 19.4696
     },
     {
       "type": "Feature",
@@ -1677,7 +1689,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-TAM"
+      "id": "TAM",
+      "casos_totales": 17246,
+      "x": -99.3932,
+      "y": 23.9496
     },
     {
       "type": "Feature",
@@ -1919,7 +1934,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-TAB"
+      "id": "TAB",
+      "casos_totales": 5216,
+      "x": -93.8439,
+      "y": 18.0656
     },
     {
       "type": "Feature",
@@ -2428,7 +2446,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-SON"
+      "id": "SON",
+      "casos_totales": 740,
+      "x": -111.2863,
+      "y": 29.7656
     },
     {
       "type": "Feature",
@@ -2882,7 +2903,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-SIN"
+      "id": "SNL",
+      "casos_totales": 7934,
+      "x": -109.1163,
+      "y": 25.7656
     },
     {
       "type": "Feature",
@@ -3169,7 +3193,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-SLP"
+      "id": "SLP",
+      "casos_totales": 8062,
+      "x": -101.82557,
+      "y": 22.9656
     },
     {
       "type": "Feature",
@@ -3532,7 +3559,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-ROO"
+      "id": "QROO",
+      "casos_totales": 3039,
+      "x": -89.32557,
+      "y": 19.5931
     },
     {
       "type": "Feature",
@@ -3677,7 +3707,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-QUE"
+      "id": "QRO",
+      "casos_totales": 693,
+      "x": -100.12557,
+      "y": 20.7931
     },
     {
       "type": "Feature",
@@ -3957,7 +3990,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-PUE"
+      "id": "PUE",
+      "casos_totales": 5247,
+      "x": -98.42557,
+      "y": 18.4931
     },
     {
       "type": "Feature",
@@ -4290,7 +4326,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-OAX"
+      "id": "OAX",
+      "casos_totales": 7760,
+      "x": -96.9507,
+      "y": 16.9931
     },
     {
       "type": "Feature",
@@ -4639,7 +4678,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-NLE"
+      "id": "NL",
+      "casos_totales": 8408,
+      "x": -99.9265,
+      "y": 25.4192
     },
     {
       "type": "Feature",
@@ -4941,7 +4983,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-NAY"
+      "id": "NAY",
+      "casos_totales": 7615,
+      "x": -105.2863,
+      "y": 21.4192
     },
     {
       "type": "Feature",
@@ -5011,7 +5056,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-MOR"
+      "id": "MOR",
+      "casos_totales": 7496,
+      "x": -99.2652,
+      "y": 18.729
     },
     {
       "type": "Feature",
@@ -5316,7 +5364,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-MIC"
+      "id": "MIC",
+      "casos_totales": 13430,
+      "x": -102.2825,
+      "y": 19.429
     },
     {
       "type": "Feature",
@@ -5534,7 +5585,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-MEX"
+      "id": "EMX",
+      "casos_totales": 1885,
+      "x": -100.1825,
+      "y": 19.5429
     },
     {
       "type": "Feature",
@@ -6009,7 +6063,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-JAL"
+      "id": "JAL",
+      "casos_totales": 27578,
+      "x": -104.35253,
+      "y": 20.3429
     },
     {
       "type": "Feature",
@@ -6216,7 +6273,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-HID"
+      "id": "HID",
+      "casos_totales": 1897,
+      "x": -99.503,
+      "y": 20.3429
     },
     {
       "type": "Feature",
@@ -6486,7 +6546,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-GRO"
+      "id": "GRO",
+      "casos_totales": 8953,
+      "x": -100.999,
+      "y": 17.712
     },
     {
       "type": "Feature",
@@ -6690,7 +6753,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-GUA"
+      "id": "GTO",
+      "casos_totales": 1629,
+      "x": -101.7987,
+      "y": 20.998
     },
     {
       "type": "Feature",
@@ -7071,7 +7137,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-DUR"
+      "id": "DGO",
+      "casos_totales": 354,
+      "x": -105.532,
+      "y": 24.888
     },
     {
       "type": "Feature",
@@ -7123,7 +7192,10 @@
         "CNTRY": "Mexico",
         "TYPE": "Federal District"
       },
-      "id": "MX-CMX"
+      "id": "CDMX",
+      "casos_totales": 155,
+      "x": -99.1111,
+      "y": 19.1661
     },
     {
       "type": "Feature",
@@ -7214,7 +7286,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-COL"
+      "id": "COL",
+      "casos_totales": 3314,
+      "x": -105.1,
+      "y": 18.8588
     },
     {
       "type": "Feature",
@@ -7655,7 +7730,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-COA"
+      "id": "COA",
+      "casos_totales": 5433,
+      "x": -103.0,
+      "y": 27.4433
     },
     {
       "type": "Feature",
@@ -8124,7 +8202,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-CHH"
+      "id": "CHI",
+      "casos_totales": 27,
+      "x": -107.0,
+      "y": 29.4433
     },
     {
       "type": "Feature",
@@ -8380,7 +8461,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-CHP"
+      "id": "CHP",
+      "casos_totales": 4291,
+      "x": -93.1529,
+      "y": 16.3596
     },
     {
       "type": "Feature",
@@ -8649,7 +8733,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-CAM"
+      "id": "CAM",
+      "casos_totales": 1012,
+      "x": -91.1529,
+      "y": 18.3596
     },
     {
       "type": "Feature",
@@ -9424,7 +9511,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-BCS"
+      "id": "BCS",
+      "casos_totales": 381,
+      "x": -113.9081,
+      "y": 27.1021
     },
     {
       "type": "Feature",
@@ -9917,7 +10007,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-BCN"
+      "id": "BCN",
+      "casos_totales": 59,
+      "x": -116.4433,
+      "y": 32.1888
     },
     {
       "type": "Feature",
@@ -9988,7 +10081,10 @@
         "CNTRY": "Mexico",
         "TYPE": "State"
       },
-      "id": "MX-AGU"
+      "id": "AGU",
+      "casos_totales": 32,
+      "x": -102.7057,
+      "y": 21.8269
     }
   ]
 }

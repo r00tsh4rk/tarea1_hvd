@@ -15,30 +15,3 @@ path.estados {
   stroke: #75739f;
   fill: #5eafc6;
 }
-
-circle.cities {
-  stroke-width: 1;
-  stroke: #4f442b;
-  fill: #fcbc34;
-}
-
-circle.centroid {
-  fill: #75739f;
-  pointer-events: none;
-}
-
-path.graticule {
-  fill: none;
-  stroke-width: 1;
-  stroke: lightgray;
-}
-
-path.graticule.outline {
-  stroke: #9a8b7a;
-}
-
-path.merged {
-  fill: #9a8b7a;
-  stroke: #4f442b;
-  stroke-width: 2px;
-}
