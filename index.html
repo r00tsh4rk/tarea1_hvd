@@ -30,8 +30,44 @@
       </nav>
     </header>
     <main class="mt-4 container">
-      <h1>Análisis de tendencias - Dengue en México</h1>
-      <div id="graf"></div>
+      <h1>Análisis de Tendencias sobre Dengue en México</h1>
+      <h3>Mapa de casos reportados de dengue en México</h3>
+      <p>
+        El siguiente mapa de la República Mexicana, ilustra mediante
+        semaforización por colores, los casos totales de Dengue, por cada estado
+        de la República. Es calculado por la sumatoria de casos y defunciones.
+      </p>
+      <h4>Semaforización</h4>
+      <p>Verde = Menos de 1,000 casos.</p>
+      <p>Amarillo = Mayor a 1,000 casos y menor o igual a 10,000.</p>
+      <p>Naraja = Mayor a 10,000 casos y menor o igual a 15,000.</p>
+      <p>Rojo = Mayor a 15,000 casos.</p>
+      <div class="row">
+        <div class="col-md-12" id="mapa"></div>
+      </div>
+      <br />
+      <div class="row">
+        <h3>Dengue en Mexico 2020-2021-2022</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+          veniam id laboriosam quod! Recusandae suscipit, pariatur,
+          exercitationem iste quidem earum natus mollitia possimus quaerat, quae
+          numquam impedit nesciunt repellat veniam.
+        </p>
+        <select id="metrica" class="form-control my-2"></select>
+        <div class="col-md-12" id="barras"></div>
+      </div>
+      <br />
+      <div class="row">
+        <h3>Mapa de calor sobre defunciones por Dengue en México</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+          veniam id laboriosam quod! Recusandae suscipit, pariatur,
+          exercitationem iste quidem earum natus mollitia possimus quaerat, quae
+          numquam impedit nesciunt repellat veniam.
+        </p>
+        <div class="col-md-12" id="heatmap"></div>
+      </div>
     </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/d3-array@3"></script>
