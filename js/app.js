@@ -13,6 +13,11 @@ const cargarMapa = async (el) => {
     .attr("height", altoTotal)
     .attr("class", "mapa");
 
+  var div = d3
+    .select("body")
+    .append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
   // Margenes
   const margins = {
     top: 60,
@@ -31,11 +36,12 @@ const cargarMapa = async (el) => {
   var projection = d3
     .geoMercator()
     .center([-100.0, 25.0])
-    .scale(1900)
+    .scale(1600)
     .translate([ancho / 2, alto / 2]);
   var geoPath = d3.geoPath().projection(projection);
   // Carga de DEL JSON que conteniene los datos sobre casos totales, defunciones y coordenadas de dibujo y posicionamiento (x,y)
   geoMexico = await d3.json("data/geomexico.json", d3.autoType);
+  casos = await d3.csv("data/casos_edos.csv", d3.autoType);
 
   //Constante que accede a las características de cada estado.
   const caracteristicas = geoMexico.features;
@@ -80,25 +86,49 @@ const cargarMapa = async (el) => {
         .attr("opacity", ".500")
         .select("#id");
     })
+
     .on("mouseout", function (d, i) {
       d3.select(this).transition().duration("50").attr("opacity", "1");
+      div.transition().duration(500).style("opacity", 0);
     })
     .style("stroke", (d) => d3.rgb(newFeatureColor(d3.geoArea(d))).darker());
 
   //SE INDICA LA ABREVIATURA DEL ESTADO Y LOS CASOS TOTLES, ESTOS SON LEIDOS DEL JSON DE MÉXICO
   // Y COLOCADOS CON LAS LLAVES Y VALORES DE POSICIONAMIENTO (X,Y)
-  g.selectAll("text")
-    .data(geoMexico.features)
+
+  // add the dots with tooltips
+  g.selectAll("dot")
+    .data(casos)
     .enter()
-    .append("text")
-    .attr("x", (d) => projection([d.x, d.y])[0])
-    .attr("y", (d) => projection([d.x, d.y])[1])
-    .style("font-size", "8px")
-    .style("font-family", "sans-serif")
-    .style("font-weight", "bold")
-    .style("fill", "black")
-    .text((d) => {
-      return d.id + ":" + d.casos_totales;
+    .append("circle")
+    .attr("r", 4)
+    .attr("cx", (d) => projection([d.long_capital, d.lat_capital])[0])
+    .attr("cy", (d) => projection([d.long_capital, d.lat_capital])[1])
+    .on("mouseover", function (event, d) {
+      div.transition().duration(200).style("opacity", 0.9);
+      div
+        .html(
+          "<strong>" +
+            d.estado +
+            "</strong>" +
+            "<br/>" +
+            "Casos totales:" +
+            d.casos_totales +
+            "<br/>" +
+            "Casos en 2022: " +
+            d.casos_2022 +
+            "<br/>" +
+            "Casos en 2021: " +
+            d.casos_2021 +
+            "<br/>" +
+            "Casos en 2020: " +
+            d.casos_2020
+        )
+        .style("left", event.pageX + "px")
+        .style("top", event.pageY - 28 + "px");
+    })
+    .on("mouseout", function (d) {
+      div.transition().duration(500).style("opacity", 0);
     });
 };
 
@@ -265,7 +295,7 @@ const cargarMapaCalor = async (el, col, escala = "linear") => {
 
   // Carga de datos
   const dataset = await d3.csv("data/edad_anios.csv", d3.autoType);
-  console.log(dataset);
+
   dataset.sort((a, b) => a.edad - b.edad);
 
   // Escalador

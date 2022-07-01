@@ -397,8 +397,9 @@
       },
       "id": "ZAC",
       "casos_totales": 59,
-      "x": -103.632,
-      "y": 22.988
+      "x": -102.5736,
+      "y": 22.7736,
+      "name": "Zacatecas"
     },
     {
       "type": "Feature",
@@ -576,8 +577,9 @@
       },
       "id": "YUC",
       "casos_totales": 1734,
-      "x": -89.3386,
-      "y": 20.7864
+      "x": -89.62,
+      "y": 20.97,
+      "name": "Yucatán"
     },
     {
       "type": "Feature",
@@ -1089,8 +1091,9 @@
       },
       "id": "VER",
       "casos_totales": 12412,
-      "x": -95.7164,
-      "y": 17.8696
+      "x": -96.9275,
+      "y": 19.54,
+      "name": "Veracruz"
     },
     {
       "type": "Feature",
@@ -1172,8 +1175,9 @@
       },
       "id": "TLA",
       "casos_totales": 17,
-      "x": -98.2849,
-      "y": 19.4696
+      "x": -98.1998,
+      "y": 19.3191,
+      "name": "Tlaxcala"
     },
     {
       "type": "Feature",
@@ -1691,8 +1695,9 @@
       },
       "id": "TAM",
       "casos_totales": 17246,
-      "x": -99.3932,
-      "y": 23.9496
+      "x": -99.1333,
+      "y": 23.7333,
+      "name": "Tamaulipas"
     },
     {
       "type": "Feature",
@@ -1936,8 +1941,9 @@
       },
       "id": "TAB",
       "casos_totales": 5216,
-      "x": -93.8439,
-      "y": 18.0656
+      "x": -92.9281,
+      "y": 17.9892,
+      "name": "Tabasco"
     },
     {
       "type": "Feature",
@@ -2448,8 +2454,9 @@
       },
       "id": "SON",
       "casos_totales": 740,
-      "x": -111.2863,
-      "y": 29.7656
+      "x": -110.9542,
+      "y": 29.0989,
+      "name": "Sonora"
     },
     {
       "type": "Feature",
@@ -2905,8 +2912,9 @@
       },
       "id": "SNL",
       "casos_totales": 7934,
-      "x": -109.1163,
-      "y": 25.7656
+      "x": -107.3939,
+      "y": 24.8069,
+      "name": "Sinaloa"
     },
     {
       "type": "Feature",
@@ -3195,8 +3203,9 @@
       },
       "id": "SLP",
       "casos_totales": 8062,
-      "x": -101.82557,
-      "y": 22.9656
+      "x": -100.9761,
+      "y": 22.1511,
+      "name": "San Luis Potosí"
     },
     {
       "type": "Feature",
@@ -3561,8 +3570,9 @@
       },
       "id": "QROO",
       "casos_totales": 3039,
-      "x": -89.32557,
-      "y": 19.5931
+      "x": -88.3053,
+      "y": 18.5036,
+      "name": "Quintana Roo"
     },
     {
       "type": "Feature",
@@ -3709,8 +3719,9 @@
       },
       "id": "QRO",
       "casos_totales": 693,
-      "x": -100.12557,
-      "y": 20.7931
+      "x": -100.3928,
+      "y": 20.5875,
+      "name": "Querétaro"
     },
     {
       "type": "Feature",
@@ -3993,7 +4004,8 @@
       "id": "PUE",
       "casos_totales": 5247,
       "x": -98.42557,
-      "y": 18.4931
+      "y": 18.4931,
+      "name": "Puebla"
     },
     {
       "type": "Feature",
@@ -4328,8 +4340,9 @@
       },
       "id": "OAX",
       "casos_totales": 7760,
-      "x": -96.9507,
-      "y": 16.9931
+      "x": -96.75,
+      "y": 17.0833,
+      "name": "Oaxaca"
     },
     {
       "type": "Feature",
@@ -4680,8 +4693,9 @@
       },
       "id": "NL",
       "casos_totales": 8408,
-      "x": -99.9265,
-      "y": 25.4192
+      "x": -100.3,
+      "y": 25.6667,
+      "name": "Nuevo León"
     },
     {
       "type": "Feature",
@@ -4985,8 +4999,9 @@
       },
       "id": "NAY",
       "casos_totales": 7615,
-      "x": -105.2863,
-      "y": 21.4192
+      "x": -104.8931,
+      "y": 21.5083,
+      "name": "Nayarit"
     },
     {
       "type": "Feature",
@@ -5058,8 +5073,9 @@
       },
       "id": "MOR",
       "casos_totales": 7496,
-      "x": -99.2652,
-      "y": 18.729
+      "x": -99.2342,
+      "y": 18.9186,
+      "name": "Morelos"
     },
     {
       "type": "Feature",
@@ -5365,9 +5381,7 @@
         "TYPE": "State"
       },
       "id": "MIC",
-      "casos_totales": 13430,
-      "x": -102.2825,
-      "y": 19.429
+      "casos_totales": 13430
     },
     {
       "type": "Feature",
@@ -5587,8 +5601,9 @@
       },
       "id": "EMX",
       "casos_totales": 1885,
-      "x": -100.1825,
-      "y": 19.5429
+      "x": -99.6569,
+      "y": 19.2925,
+      "name": "Estado de México"
     },
     {
       "type": "Feature",
@@ -6065,8 +6080,9 @@
       },
       "id": "JAL",
       "casos_totales": 27578,
-      "x": -104.35253,
-      "y": 20.3429
+      "x": -103.3475,
+      "y": 20.3429,
+      "name": "Jalisco"
     },
     {
       "type": "Feature",
@@ -6275,8 +6291,9 @@
       },
       "id": "HID",
       "casos_totales": 1897,
-      "x": -99.503,
-      "y": 20.3429
+      "x": -98.75,
+      "y": 20.1,
+      "name": "Hidalgo"
     },
     {
       "type": "Feature",
@@ -6548,8 +6565,9 @@
       },
       "id": "GRO",
       "casos_totales": 8953,
-      "x": -100.999,
-      "y": 17.712
+      "x": -99.5,
+      "y": 17.55,
+      "name": "Guerrero"
     },
     {
       "type": "Feature",
@@ -6755,8 +6773,9 @@
       },
       "id": "GTO",
       "casos_totales": 1629,
-      "x": -101.7987,
-      "y": 20.998
+      "x": -101.2567,
+      "y": 21.0178,
+      "name": "Guanajuato"
     },
     {
       "type": "Feature",
@@ -7139,8 +7158,9 @@
       },
       "id": "DGO",
       "casos_totales": 354,
-      "x": -105.532,
-      "y": 24.888
+      "x": -104.6667,
+      "y": 24.0167,
+      "name": "Durango"
     },
     {
       "type": "Feature",
@@ -7194,8 +7214,9 @@
       },
       "id": "CDMX",
       "casos_totales": 155,
-      "x": -99.1111,
-      "y": 19.1661
+      "x": -99.1333,
+      "y": 19.4333,
+      "name": "Ciudad de México"
     },
     {
       "type": "Feature",
@@ -7288,8 +7309,9 @@
       },
       "id": "COL",
       "casos_totales": 3314,
-      "x": -105.1,
-      "y": 18.8588
+      "x": -103.7247,
+      "y": 19.2433,
+      "name": "Colima"
     },
     {
       "type": "Feature",
@@ -7732,8 +7754,9 @@
       },
       "id": "COA",
       "casos_totales": 5433,
-      "x": -103.0,
-      "y": 27.4433
+      "x": -101,
+      "y": 25.4333,
+      "name": "Coahuila"
     },
     {
       "type": "Feature",
@@ -8204,8 +8227,9 @@
       },
       "id": "CHI",
       "casos_totales": 27,
-      "x": -107.0,
-      "y": 29.4433
+      "x": -106.0889,
+      "y": 28.6353,
+      "name": "Chihuahua"
     },
     {
       "type": "Feature",
@@ -8463,8 +8487,9 @@
       },
       "id": "CHP",
       "casos_totales": 4291,
-      "x": -93.1529,
-      "y": 16.3596
+      "x": -93.1167,
+      "y": 16.7528,
+      "name": "Chiapas"
     },
     {
       "type": "Feature",
@@ -8735,8 +8760,9 @@
       },
       "id": "CAM",
       "casos_totales": 1012,
-      "x": -91.1529,
-      "y": 18.3596
+      "x": -90.5306,
+      "y": 19.85,
+      "name": "Campeche"
     },
     {
       "type": "Feature",
@@ -9513,8 +9539,9 @@
       },
       "id": "BCS",
       "casos_totales": 381,
-      "x": -113.9081,
-      "y": 27.1021
+      "x": -110.3108,
+      "y": 24.1422,
+      "name": "Baja California Sur"
     },
     {
       "type": "Feature",
@@ -10009,8 +10036,9 @@
       },
       "id": "BCN",
       "casos_totales": 59,
-      "x": -116.4433,
-      "y": 32.1888
+      "x": -115.4678,
+      "y": 32.6633,
+      "name": "Baja California"
     },
     {
       "type": "Feature",
@@ -10083,8 +10111,9 @@
       },
       "id": "AGU",
       "casos_totales": 32,
-      "x": -102.7057,
-      "y": 21.8269
+      "x": -102.296,
+      "y": 21.876,
+      "name": "Aguascalientes"
     }
   ]
 }
