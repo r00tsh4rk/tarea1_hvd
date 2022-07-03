@@ -210,7 +210,6 @@ const cargarBarras = async (el, variable = "HOMBRE2020") => {
   const xAxisGroup = g
     .append("g")
     .attr("transform", `translate(0, ${alto})`)
-    //.attr("transform", "rotate(-90)")
     .classed("axis", true);
   const yAxisGroup = g.append("g").classed("axis", true);
 
@@ -236,7 +235,6 @@ const cargarBarras = async (el, variable = "HOMBRE2020") => {
       .merge(rect)
       .transition()
       .duration(2500)
-      // .ease(d3.easeBounce)
       .attr("x", (d) => x(xAccessor(d)))
       .attr("y", (d) => y(yAccessor(d)))
       .attr("width", x.bandwidth())
@@ -244,7 +242,7 @@ const cargarBarras = async (el, variable = "HOMBRE2020") => {
       .attr("fill", (d) =>
         xAccessor(d) == "Satélite" ? "#f00" : color(variable)
       );
-
+    //poner etiquetas en cada barra 
     const et = etiquetas.selectAll("text").data(data);
     et.enter()
       .append("text")
@@ -256,6 +254,7 @@ const cargarBarras = async (el, variable = "HOMBRE2020") => {
       .attr("x", (d) => x(xAccessor(d)) + x.bandwidth() / 2)
       .attr("y", (d) => y(yAccessor(d)))
       .text(yAccessor);
+      
 
     // Títulos
     titulo.text(`Casos de Dengue en Mexico ${variable} `);
@@ -269,8 +268,7 @@ const cargarBarras = async (el, variable = "HOMBRE2020") => {
 
   // Eventos
   metrica.on("change", (e) => {
-    e.preventDefault();
-    // console.log(e.target.value, metrica.node().value)
+    e.preventDefault(); 
     render(e.target.value);
   });
   render(variable);
@@ -301,25 +299,14 @@ const cargarMapaCalor = async (el, col, escala = "linear") => {
   // Escalador
   let color; //es una variable para switch
   switch (escala) {
-    case "linear":
-      color = d3
-        .scaleLinear()
-        .domain(d3.extent(dataset, (d) => d.edad)) //dominio los datos X´s
-        .range(["#ddddff", "#1111ff"]); //rango colores de valor maximo y minimo
-      break;
+
     case "quantize":
       color = d3
         .scaleQuantize()
         .domain(d3.extent(dataset, (d) => d.edad))
         .range(["#D6234A", "#58C3BB", "grey"]); //#2D7ACO,#F8E469,#D6234A
       break;
-    case "threshold":
-      color = d3
-        .scaleThreshold()
-        .domain([31, 41, 51, 61]) //dominio es diferente , aqui se pasan 2 umbrales
-        .range(["green", "yellow", "red", "orange", "grey"]);
-      break;
-  }
+    }
 
   // Dibujo de cuadros
   svg
@@ -352,4 +339,4 @@ const cargarMapaCalor = async (el, col, escala = "linear") => {
 
 cargarMapa("#mapa");
 cargarBarras("#barras");
-cargarMapaCalor("#heatmap", 55, "quantize");
+cargarMapaCalor("#heatmap", 50, "quantize");
